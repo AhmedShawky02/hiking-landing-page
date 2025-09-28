@@ -1,73 +1,40 @@
-# React + TypeScript + Vite
+# 🏔️ Hiking Landing Page  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and fully responsive Hiking Landing Page built with React (TypeScript) and custom CSS.  
+Designed with a minimal and nature-inspired aesthetic to provide an engaging experience for hikers and adventurers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- **Hero Section** – Logo, navigation menu, headline, CTA, and scroll indicator.  
+- **Guide Section** – Informative hiking guide with text and images.  
+- **Hiking Levels** – Explanation of hiking experience levels (novice → expert).  
+- **Essentials Section** – Tips for choosing the right hiking gear.  
+- **Map & Timing Section** – Instructions for understanding maps and planning hikes.  
+- **Footer** – Blog links, contributors, contact info, and privacy policy.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack  
+- **React (TypeScript)** – Component-based architecture for scalable development.  
+- **CSS** – Custom styles with a mobile-first approach.  
+- **Responsive Design** – Fully optimized for desktop, tablet, and mobile.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🌐 Live Demo  
+🔗 **[View Live Project](https://your-project-link.vercel.app)**  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📸 Screenshots  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<img width="2340" height="2210" alt="localhost_5173_ - Copy" src="https://github.com/user-attachments/assets/77864208-da4b-4410-be88-0f415360a640" />
+<img width="2340" height="1298" alt="localhost_5173_ - Copy (2)" src="https://github.com/user-attachments/assets/68417c87-3210-4af6-b276-c663d79a814d" />
+<img width="2340" height="1312" alt="localhost_5173_ - Copy (3)" src="https://github.com/user-attachments/assets/0a80d17f-262a-4fc7-a998-aa84a7a937bd" />
+<img width="2340" height="1291" alt="localhost_5173_ - Copy (4)" src="https://github.com/user-attachments/assets/bace4228-767a-48ff-b279-1b2829d3cf4a" />
+<img width="2340" height="784" alt="localhost_5173_ - Copy (5)" src="https://github.com/user-attachments/assets/d961786b-fb45-49c6-abb0-19e9c9477cb6" />
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🖌️ Design inspired by Kryston Schwarze (Figma Community)
