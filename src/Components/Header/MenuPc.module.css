@@ -1,0 +1,135 @@
+.containerAnimation {
+    width: 100%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: var(--font-gilroy);
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-weight: 600;
+    transition: 0.3s ease-out;
+}
+
+.li_Item a,
+.actionContainer a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 20px 10px;
+    position: relative;
+    transition: 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.li_Item .ALink::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    opacity: 0;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s ease-out;
+}
+
+.li_Item a:hover::after {
+    width: 90%;
+    opacity: 1;
+    border: 2px solid white;
+}
+
+.IConLinkHeader {
+    display: none;
+}
+
+.Logo {
+    width: 120px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .Logo {
+        width: 110px;
+    }
+
+    .list {
+        gap: 20px;
+    }
+
+    .list a {
+        font-size: 18px;
+        padding: 8px 8px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Logo {
+        width: 100px;
+    }
+
+    .list {
+        gap: 15px;
+    }
+
+    .SignUp_Login {
+        gap: 20px;
+    }
+
+    .list a {
+        font-size: 17px;
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Logo {
+        width: 85px;
+    }
+
+    .list {
+        gap: 15px;
+    }
+
+    .SignUp_Login {
+        gap: 15px;
+    }
+
+
+    .list a {
+        font-size: 16px;
+        padding: 3px 3px;
+    }
+}
+
+@media screen and (max-width: 829px) {
+
+    .Logo {
+        width: 110px;
+    }
+
+    .list {
+        display: none;
+    }
+
+
+}

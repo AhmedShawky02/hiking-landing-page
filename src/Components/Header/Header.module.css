@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    max-width: 1600px;
+    margin: auto;
+    transition: 0.3s ease-out;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 22;
+}
+
+.burger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.logo {
+    width: 120px;
+}
+
+.overrideOneLier {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+/* Padding */
+
+@media screen and (max-width: 1110px) {
+    .header {
+        padding: 20px 50px;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 40px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        padding: 20px;
+    }
+}
+
+/* Style */
+
+
+@media screen and (max-width: 850px) {
+
+    .Icon {
+        font-size: 40px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .burger {
+        display: block;
+    }
+}
