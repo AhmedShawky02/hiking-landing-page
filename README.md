@@ -23,7 +23,7 @@ Designed with a minimal and nature-inspired aesthetic to provide an engaging exp
 ---
 
 ## 🌐 Live Demo  
-🔗 **[View Live Project](https://your-project-link.vercel.app)**  
+🔗 **[View Live Project](https://hiking-landing-page.vercel.app/)**  
 
 ---
 
