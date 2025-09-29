@@ -30,7 +30,7 @@ Designed with a minimal and nature-inspired aesthetic to provide an engaging exp
 ## 📸 Screenshots  
 
 <img width="2340" height="2210" alt="localhost_5173_ - Copy" src="https://github.com/user-attachments/assets/77864208-da4b-4410-be88-0f415360a640" />
-<img width="2340" height="1298" alt="localhost_5173_ - Copy (2)" src="https://github.com/user-attachments/assets/68417c87-3210-4af6-b276-c663d79a814d" />
+<img width="3000" height="1500" alt="pc" src="https://github.com/user-attachments/assets/97272239-a2a1-4c9b-b0f7-7c37ba0907cd" />
 <img width="2340" height="1312" alt="localhost_5173_ - Copy (3)" src="https://github.com/user-attachments/assets/0a80d17f-262a-4fc7-a998-aa84a7a937bd" />
 <img width="2340" height="1291" alt="localhost_5173_ - Copy (4)" src="https://github.com/user-attachments/assets/bace4228-767a-48ff-b279-1b2829d3cf4a" />
 <img width="2340" height="784" alt="localhost_5173_ - Copy (5)" src="https://github.com/user-attachments/assets/d961786b-fb45-49c6-abb0-19e9c9477cb6" />
